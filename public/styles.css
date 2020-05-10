@@ -1,59 +1,92 @@
 * {
-    padding: 0;
-    margin: 0;
-        
+  padding: 0;
+  margin: 0;
 }
 
 body {
-    background-color: #dbdbdb;
-    font-family: 'Neuton', serif;
+  background-color: #dbdbdb;
+  font-family: "Neuton", serif;
 }
-
-html {
-    font-family: "Roboto", sans-serif;
-}
-
 
 header {
-    padding: 16px 32px;      
-} 
-
-
-footer {
-    position: absolute;
-    text-align: center;
-    bottom: 0;
-    width: 100%;
-    height: 2.5rem;
+  padding: 16px 32px;
 }
 
-footer p, a {
-    color: gray;
-    font-size: 0.9rem;
-   
+/* Score and progress  */
+
+.score {
+  text-align: center;
+  margin-top: 30px;
+  font-size: 1.2rem;
 }
 
-footer a {
-    text-decoration: none;
-    font-weight: 600;
+.score span {
+  margin: 0 10px;
+  background-color: #f2efef;
+  border-radius: 5px;
+  padding-left: 4px;
+  color: black;
 }
+
+.progress {
+  width: 57%;
+  margin: 20px auto 0;
+}
+
+/* Question and answers */
 
 .question {
-    position: relative;
-    text-align: center;    
-    width: 500px;
-    margin: 35px auto 20px auto;
-    padding: 30px;
+  position: relative;
+  text-align: center;
+  width: 55%;
+  margin: 0 auto;
+  padding: 20px;
 }
 
 .question h2 {
-    margin-bottom: 40px;
+  margin-bottom: 40px;
 }
 
 .answer {
-    margin: 50px 50px;
+  margin: 50px 50px;
 }
 
-.row {
-    text-align: left;
+/* Choose levels */
+
+.choose-levels {
+  position: relative;
+  text-align: center;
+  font-size: 1.2rem;
+  width: 50%;
+  margin: 30px auto;
+}
+
+.choose-levels p {
+  margin-bottom: 20px;
+}
+
+.choose-levels p span {
+  background-color: #f2efef;
+  padding: 1px 8px;
+  border-radius: 5px;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  margin-top: 50px;
+  bottom: 0;
+  width: 100%;
+  height: 2.5rem;
+}
+
+footer p,
+a {
+  color: gray;
+  font-size: 0.9rem;
+}
+
+footer a {
+  text-decoration: none;
+  font-weight: 600;
 }

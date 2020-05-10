@@ -4,7 +4,7 @@ function Footer() {
   return (
     <footer>
       <p>
-        Made by <a href="https://github.com/ivcp">Ivcp</a>.
+        Made by <a href="https://github.com/ivcp">ivcp.</a>
       </p>
     </footer>
   );
