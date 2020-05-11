@@ -5,6 +5,7 @@ import Levels from "./Levels";
 import list from "../list.json";
 import { Line } from "rc-progress";
 
+
 const random = [];
 while (random.length < 4) {
   let r = Math.floor(Math.random() * 246);
